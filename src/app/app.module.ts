@@ -7,6 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
+import { Camera } from '@ionic-native/camera';
+import { Device } from '@ionic-native/device';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { AboutPage } from '../pages/about/about';
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
+    Device,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })

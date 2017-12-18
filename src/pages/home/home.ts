@@ -16,19 +16,17 @@ export class HomePage {
   camera;
 
   constructor(public navCtrl: NavController) {
-
-    var device = new Device();
-    if (device.platform === 'iOS') {
-      this.camera = new Camera()
-    }
   }
-
 
   takePicture(){
 
     var device = new Device();
     if (device.platform === 'iOS') {
       return
+    }
+
+    if (this.camera == undefined) {
+      this.camera = new Camera()
     }
 
     const options: CameraOptions = {

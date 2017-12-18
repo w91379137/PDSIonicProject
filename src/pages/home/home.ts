@@ -20,8 +20,12 @@ export class HomePage {
 
   takePicture(){
 
+    if (window["cordova"] == undefined) {
+      return
+    }
+
     var device = new Device();
-    if (device.platform === 'iOS') {
+    if (device.platform !== 'iOS') {
       return
     }
 
@@ -45,6 +49,8 @@ export class HomePage {
 
     }, (err) => {
       // Handle error
+      console.log(err);
+      alert(err);
     });
   }
 }

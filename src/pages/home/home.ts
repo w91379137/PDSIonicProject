@@ -4,6 +4,10 @@ import { AboutPage } from '../about/about';
 
 import { Camera, CameraOptions } from '@ionic-native/camera';
 import { Device } from '@ionic-native/device';
+//import { plugin } from 'my-cordova-plugin'
+//import { Keyboard } from 'ionic-plugin-keyboard';
+//import { Storage } from '@ionic/storage';
+//import { IonicNativePlugin } from '@ionic-native/core';
 
 @Component({
   selector: 'page-home',
@@ -25,7 +29,7 @@ export class HomePage {
     }
 
     var device = new Device();
-    if (device.platform !== 'iOS') {
+    if (device.platform !== 'ios') {
       return
     }
 

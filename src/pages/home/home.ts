@@ -8,6 +8,7 @@ import { Device } from '@ionic-native/device';
 //import { Keyboard } from 'ionic-plugin-keyboard';
 //import { Storage } from '@ionic/storage';
 //import { IonicNativePlugin } from '@ionic-native/core';
+import { Geolocation } from '@ionic-native/geolocation';
 
 @Component({
   selector: 'page-home',

@@ -33,7 +33,7 @@ import { Device } from '@ionic-native/device';
 //   echo(arg1: string, arg2: string): void;
 // }
 
-declare let cordova: any;   //ionic2调用自定义插件这里这么写
+declare var MyCordovaPlugin;
 
 @Component({
   selector: 'page-home',
@@ -42,10 +42,25 @@ declare let cordova: any;   //ionic2调用自定义插件这里这么写
 export class HomePage {
 
   aboutPage = AboutPage;
-  
   camera;
 
   constructor(public navCtrl: NavController) {
+
+  }
+
+  echoNative(){
+    MyCordovaPlugin.echo(['a', 123, 'b', 456], result => {
+      //理論上不會跑
+      console.log(result);
+      alert(result);
+    }, error => alert(error))
+  }
+
+  getDateNative() {
+    MyCordovaPlugin.getDate(result => {
+      console.log(result);
+      alert(result);
+    }, error => alert(error))
   }
 
   takePicture(){
@@ -55,15 +70,9 @@ export class HomePage {
       return
     }
     
-    // var p = new MyCordovaPlugin();
-    // p.echo("arg3", "arg4");
-    cordova.plugins.MyCordovaPlugin.echo("arg3", "arg4", result => {
-      alert(result);
-    }, error => alert(error))
-
     var device = new Device();
-    if (device.platform !== 'ios') {
-      alert("no ios");
+    if (device.platform !== 'iOS') {
+      alert(device.platform);
       return
     }
 

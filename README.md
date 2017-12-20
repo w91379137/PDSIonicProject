@@ -78,6 +78,14 @@ http://kaibin.me/2016/07/17/ionic-hotcode/
 
 轉換 Style (如何讓網頁 轉成 iOS Style)
 
+ts debug
+ts map file
+vscode ts 中斷點
+
+ts 的檔案結構
+ts js 銜接問題
+plugin 製法
+
 ## 其他
 ionic/angular中module探秘
 http://blog.csdn.net/u010730126/article/details/49720391

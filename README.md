@@ -56,39 +56,76 @@ ionic start AppName sidemenu
 ```
 
 ## cordova plugin
-https://gist.github.com/mlynch/c9a469948680979a8740d68c47d1cf98
+https://ionicframework.com/docs/native/  
+https://ionicframework.com/docs/native/camera/
+
+```
+$ ionic cordova plugin add cordova-plugin-camera
+$ npm install --save @ionic-native/camera
+```
+
+## custom plugin
+https://cordova.apache.org/docs/en/7.x/guide/platforms/ios/plugin.html  
+https://github.com/ionic-team/ionic-native/blob/master/DEVELOPER.md
+
+plugman
+https://cordova.apache.org/docs/zh-tw/latest/plugin_ref/plugman.html
+```
+npm install -g plugman
+cd PDSIonicProject
+plugman create --name DemoPlugin --plugin_id  DemoPlugin --plugin_version 0.0.1 --path .
+```
+範例
+https://github.com/ionic-team/cordova-plugin-template
+
+依照範例修改 
+套件名稱 package.json  
+套件與各平台 plugin.xml
+新增原生檔案
 
 ```
 cordova plugin add ~/path/to/plugin
 ```
 
-## custom plugin
-https://github.com/ionic-team/ionic-native/blob/master/DEVELOPER.md
+英文教學01
+https://gist.github.com/mlynch/c9a469948680979a8740d68c47d1cf98
+
+中文教學01
+http://www.jianshu.com/p/37969c9a1792
+
+中文教學02
+http://www.jianshu.com/p/e151a3c2f652
+
+中文教學03
+http://www.bijishequ.com/detail/418601
+
+QQ分享和微信分享 plugin
+http://www.jianshu.com/p/6b40b4731d99
 
 # 目標
-Add Page
-Delete Page
-Navigation
-List View
-Grid View
-繼承
-原生 app class 控制
-熱更新
+Add Page  
+Delete Page  
+Navigation  
+List View  
+Grid View  
+繼承  
+原生 app class 控制  
+熱更新  
 http://kaibin.me/2016/07/17/ionic-hotcode/
 
 轉換 Style (如何讓網頁 轉成 iOS Style)
 
-ts debug
-ts map file
-vscode ts 中斷點
+ts debug  
+ts map file  
+vscode ts 中斷點  
 
-ts 的檔案結構
-ts js 銜接問題
-plugin 製法
+ts 的檔案結構  
+ts js 銜接問題  
+plugin 製法  
 
 ## 其他
-ionic/angular中module探秘
+ionic/angular中module探秘  
 http://blog.csdn.net/u010730126/article/details/49720391
 
-控制反轉 (IoC) 與 依賴注入 (DI)
+控制反轉 (IoC) 與 依賴注入 (DI)  
 https://blog.jason.party/3/ioc-di

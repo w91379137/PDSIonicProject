@@ -117,6 +117,19 @@ http://www.bijishequ.com/detail/418601
 QQ分享和微信分享 plugin
 http://www.jianshu.com/p/6b40b4731d99
 
+## custom plugin use
+```
+declare var MyCordovaPlugin;
+declare var DemoPlugin;
+
+funcName(){
+    MyCordovaPlugin.echo(['a', 123, 'b', 456], result => {
+      console.log(result);
+      alert(result);
+    }, error => alert(error))
+}
+```
+
 # 目標
 Add Page  
 Delete Page  

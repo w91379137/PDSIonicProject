@@ -79,11 +79,9 @@ plugman create --name DemoPlugin --plugin_id  DemoPlugin --plugin_version 0.0.1 
 範例
 https://github.com/ionic-team/cordova-plugin-template
 
-依照範例修改 
-套件名稱 package.json  
-套件與各平台 plugin.xml
-
-修改 js 介面
+依照範例修改  
+package.json  
+plugin.xml  
 DemoPlugin.js
 
 JS module.exports exports

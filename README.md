@@ -130,6 +130,13 @@ funcName(){
 }
 ```
 
+## Debug TS
+打開 sourceMap 讓 ts 跟 js 連接 在 chrome 上正常  
+tsconfig.json > "sourceMap": true
+
+VSCode設定  
+https://vivavivugeek.blogspot.tw/2017/09/ionic-3-debugging-on-vs-code-and-chrome.html
+
 # 目標
 Add Page  
 Delete Page  

@@ -1,0 +1,17 @@
+{
+  "name": "DemoPlugin",
+  "version": "0.0.1",
+  "description": "abc",
+  "cordova": {
+    "id": "DemoPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "yc",
+  "license": "ISC"
+}

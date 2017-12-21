@@ -69,7 +69,8 @@ https://cordova.apache.org/docs/en/7.x/guide/platforms/ios/plugin.html
 https://github.com/ionic-team/ionic-native/blob/master/DEVELOPER.md
 
 plugman
-https://cordova.apache.org/docs/zh-tw/latest/plugin_ref/plugman.html
+https://cordova.apache.org/docs/zh-tw/latest/plugin_ref/plugman.html  
+http://taco.visualstudio.com/en-us/docs/createplugintutorial/  
 ```
 npm install -g plugman
 cd PDSIonicProject
@@ -81,10 +82,26 @@ https://github.com/ionic-team/cordova-plugin-template
 依照範例修改 
 套件名稱 package.json  
 套件與各平台 plugin.xml
-新增原生檔案
 
+修改 js 介面
+DemoPlugin.js
+
+JS module.exports exports
+http://dreamerslab.com/blog/tw/node-js-basics/
+
+新增原生檔案
 ```
-cordova plugin add ~/path/to/plugin
+cd DemoPlugin
+plugman platform add --platform_name android
+plugman platform add --platform_name ios
+```
+產生 package.json
+```
+plugman createpackagejson .
+```
+載入套件
+```
+cordova plugin add ~/path/to/pluginDir
 ```
 
 英文教學01

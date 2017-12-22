@@ -79,9 +79,7 @@ plugman create --name DemoPlugin --plugin_id  DemoPlugin --plugin_version 0.0.1 
 範例  
 https://github.com/ionic-team/cordova-plugin-template
 
-依照範例修改  
-package.json  
-plugin.xml  
+依照範例寫  
 DemoPlugin.js
 
 JS module.exports exports  

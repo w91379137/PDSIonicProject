@@ -76,14 +76,6 @@ npm install -g plugman
 cd PDSIonicProject
 plugman create --name DemoPlugin --plugin_id  DemoPlugin --plugin_version 0.0.1 --path .
 ```
-範例  
-https://github.com/ionic-team/cordova-plugin-template
-
-依照範例寫  
-DemoPlugin.js
-
-JS module.exports exports  
-http://dreamerslab.com/blog/tw/node-js-basics/
 
 新增原生檔案
 ```
@@ -91,13 +83,23 @@ cd DemoPlugin
 plugman platform add --platform_name android
 plugman platform add --platform_name ios
 ```
+範例  
+https://github.com/ionic-team/cordova-plugin-template
+
+依照範例寫  
+DemoPlugin.js  
+跟 原生物件  
+
+JS module.exports exports  
+http://dreamerslab.com/blog/tw/node-js-basics/
+
 產生 package.json
 ```
 plugman createpackagejson .
 ```
 載入套件
 ```
-cordova plugin add ~/path/to/pluginDir
+ionic cordova plugin add ~/path/to/pluginDir
 ```
 
 英文教學01  

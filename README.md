@@ -88,7 +88,7 @@ https://github.com/ionic-team/cordova-plugin-template
 
 依照範例寫  
 DemoPlugin.js  
-跟 原生物件  
+原生物件  
 
 JS module.exports exports  
 http://dreamerslab.com/blog/tw/node-js-basics/
@@ -143,25 +143,31 @@ https://tw.saowen.com/a/cd72925c22c167207f8b4c97b49e99cc1694e0dc38ed07484ad23717
 https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tsconfig.json.html  
 
 # 目標
-Add Page  
-Delete Page  
-Navigation  
-List View  
-Grid View  
-繼承  
-原生 app class 控制  
-熱更新  
+- [x] Add Page  
+- [ ] Delete Page  
+- [x] Navigation  
+- [x] Tab Bars  
+- [ ] List View  
+- [ ] Grid View  
+- [ ] 繼承  
+- [ ] 熱更新  
 http://kaibin.me/2016/07/17/ionic-hotcode/
 
-轉換 Style (如何讓網頁 轉成 iOS Style)
+- [ ] 轉換 Style (如何讓網頁 轉成 iOS Style)
 
-ts debug  
-ts map file  
-vscode ts 中斷點  
+- [x] ts debug  
+- [x] ts map file  
+- [ ] vscode ts 中斷點  
 
-ts 的檔案結構  
-ts js 銜接問題  
-plugin 製法  
+- [ ] ts 的檔案結構  
+- [ ] ts js 銜接問題  
+https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Declaration%20Merging.html  
+
+- [x] plugin 製作方法  
+- [x] 原生 app class 控制  
+
+- [ ] ionic cocoapods  
+- [ ] ionic ijkplayer  
 
 ## 其他
 ionic/angular中module探秘  

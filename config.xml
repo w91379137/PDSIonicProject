@@ -85,7 +85,4 @@
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
-    <plugin name="cordova-plugin-geolocation" spec="^3.0.0" />
-    <plugin name="my-cordova-plugin" spec="./cordova-plugin-template" />
-    <plugin name="DemoPlugin" spec="file:DemoPlugin" />
 </widget>

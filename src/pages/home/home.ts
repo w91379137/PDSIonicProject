@@ -4,34 +4,6 @@ import { AboutPage } from '../about/about';
 
 import { Camera, CameraOptions } from '@ionic-native/camera';
 import { Device } from '@ionic-native/device';
-//import { plugin } from 'my-cordova-plugin'
-//import { Keyboard } from 'ionic-plugin-keyboard';
-//import { Storage } from '@ionic/storage';
-//import { IonicNativePlugin } from '@ionic-native/core';
-//import { Geolocation } from '@ionic-native/geolocation';
-
-// import { Injectable } from '@angular/core';
-// import { Plugin, Cordova, CordovaProperty, CordovaInstance, InstanceProperty, IonicNativePlugin } from '@ionic-native/core';
-// import { Observable } from 'rxjs/Observable';
-
-// @Plugin({
-//   pluginName: 'MyCordovaPlugin',
-//   plugin: 'my-cordova-plugin', // npm package name, example: cordova-plugin-camera
-//   pluginRef: 'mycordovaplugin', // the variable reference to call the plugin, example: navigator.geolocation
-//   repo: '', // the github repository URL for the plugin
-//   install: '', // OPTIONAL install command, in case the plugin requires variables
-//   installVariables: [], // OPTIONAL the plugin requires variables
-//   platforms: ['iOS'] // Array of platforms supported, example: ['Android', 'iOS']
-// })
-// @Injectable()
-// export declare class MyCordovaPlugin extends IonicNativePlugin {
-
-//   // @Cordova()
-//   // functionName(arg1: string, arg2: number): Promise<any> {
-//   //     return; // We add return; here to avoid any IDE / Compiler errors
-//   // }
-//   echo(arg1: string, arg2: string): void;
-// }
 
 declare var MyCordovaPlugin;
 
@@ -48,7 +20,7 @@ export class HomePage {
 
   }
 
-  echoNative(){
+  echoNative() {
     MyCordovaPlugin.echo(['a', 123, 'b', 456], result => {
       //理論上不會跑
       console.log(result);
@@ -63,13 +35,10 @@ export class HomePage {
     }, error => alert(error))
   }
 
-  takePicture(){
-    
-    if (window["cordova"] == undefined) {
-      alert("no cordova");
-      return
-    }
-    
+  takePicture() {
+
+    if (window["cordova"] == undefined) { return }
+
     var device = new Device();
     if (device.platform !== 'iOS') {
       alert(device.platform);

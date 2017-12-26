@@ -1,3 +1,6 @@
 [submodule "submodule/cordova-plugin-template"]
 	path = submodule/cordova-plugin-template
 	url = git@github.com:w91379137/cordova-plugin-template.git
+[submodule "submodule/PDSIonicDemoPlugin"]
+	path = submodule/PDSIonicDemoPlugin
+	url = git@github.com:w91379137/PDSIonicDemoPlugin.git

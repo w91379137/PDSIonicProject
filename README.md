@@ -103,19 +103,22 @@ ionic cordova plugin add ~/path/to/pluginDir
 ```
 
 英文教學01  
-https://gist.github.com/mlynch/c9a469948680979a8740d68c47d1cf98
+https://gist.github.com/mlynch/c9a469948680979a8740d68c47d1cf98  
 
 中文教學01  
-http://www.jianshu.com/p/37969c9a1792
+http://www.jianshu.com/p/37969c9a1792  
 
 中文教學02  
-http://www.jianshu.com/p/e151a3c2f652
+http://www.jianshu.com/p/e151a3c2f652  
 
 中文教學03  
-http://www.bijishequ.com/detail/418601
+http://www.bijishequ.com/detail/418601  
 
 QQ分享和微信分享 plugin  
-http://www.jianshu.com/p/6b40b4731d99
+http://www.jianshu.com/p/6b40b4731d99  
+
+Swift plugin  
+https://github.com/ModusCreateOrg/cordova-swift-plugin-example  
 
 ## custom plugin use
 ```

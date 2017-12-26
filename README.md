@@ -129,6 +129,15 @@ funcName(){
     }, error => alert(error))
 }
 ```
+## reinstall js & plugins
+刪除 node_modules  
+npm install  
+
+刪除 plugins  
+ionic cordova prepare  
+
+預覽 所有 plugins  
+ionic cordova plugin ls  
 
 ## Debug TS
 打開 sourceMap 讓 ts 跟 js 連接 在 chrome 上正常  

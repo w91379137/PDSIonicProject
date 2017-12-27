@@ -142,6 +142,15 @@ ionic cordova prepare
 預覽 所有 plugins  
 ionic cordova plugin ls  
 
+## cordova hot code push 熱更新  
+http://kaibin.me/2016/07/17/ionic-hotcode/
+
+蘋果禁止？  
+http://tech.fanpiece.com/ifanr/%E8%98%8B%E6%9E%9C%E5%90%91%E7%86%B1%E6%9B%B4%E6%96%B0%E4%B8%8B%E9%81%94%E6%9C%80%E5%BE%8C%E9%80%9A%E7%89%92-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%B0%8E%E8%87%B4%E4%BA%86%E9%80%99%E6%AC%A1%E4%BA%8B%E4%BB%B6-c1271631.html  
+
+JSPatch  
+https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3  
+
 ## Debug TS
 打開 sourceMap 讓 ts 跟 js 連接 在 chrome 上正常  
 tsconfig.json > "sourceMap": true
@@ -162,8 +171,7 @@ https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tsconfig.js
 - [ ] List View  
 - [ ] Grid View  
 - [ ] 繼承  
-- [ ] 熱更新  
-http://kaibin.me/2016/07/17/ionic-hotcode/
+- [x] 熱更新  
 
 - [ ] 轉換 Style (如何讓網頁 轉成 iOS Style)
 

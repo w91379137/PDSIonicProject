@@ -86,5 +86,7 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
     <plugin name="my-cordova-plugin" spec="./submodule/cordova-plugin-template" />
-    <plugin name="DemoPlugin" spec="./submodule/PDSIonicDemoPlugin/DemoPlugin" />
+    <plugin name="DemoPlugin" spec="file:submodule/PDSIonicDemoPlugin/DemoPlugin" />
+    <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
+    <plugin name="cordova-hot-code-push-local-dev-addon" spec="^0.4.2" />
 </widget>
